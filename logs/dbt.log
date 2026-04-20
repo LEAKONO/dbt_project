@@ -1,0 +1,69 @@
+[0m21:43:12.491603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7845810ea930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78457ff30440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78458051e8a0>]}
+
+
+============================== 21:43:12.494950 | 54eed9a6-0ed8-4b8e-946e-c6f1184c0f39 ==============================
+[0m21:43:12.494950 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:43:12.495592 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'log_cache_events': 'False', 'no_print': 'None', 'log_path': 'logs', 'warn_error': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'target_path': 'None', 'debug': 'False', 'write_json': 'True', 'invocation_command': 'dbt init my_shop_analytics', 'version_check': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'profiles_dir': '/home/leakono/.dbt', 'fail_fast': 'False', 'cache_selected_only': 'False'}
+[0m21:43:12.508524 [debug] [MainThread]: Starter project path: /home/leakono/Data/practice/dbt/dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:43:12.510684 [info ] [MainThread]: 
+Your new dbt project "my_shop_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:43:12.511191 [info ] [MainThread]: Setting up your profile.
+[0m21:43:18.250763 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 5.8186235, "process_in_blocks": "0", "process_kernel_time": 0.136849, "process_mem_max_rss": "134520", "process_out_blocks": "72", "process_user_time": 1.563284}
+[0m21:43:18.251417 [debug] [MainThread]: Command `dbt init` succeeded at 21:43:18.251292 after 5.82 seconds
+[0m21:43:18.251879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78457e94fd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78457e0b28d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78457e087650>]}
+[0m21:43:18.252366 [debug] [MainThread]: Flushing usage events
+[0m21:43:19.354441 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:49:14.714275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7986976aa990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798699e3b350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7986975711c0>]}
+
+
+============================== 21:49:14.717620 | f727205a-475b-441a-a3ff-e8133ca3c201 ==============================
+[0m21:49:14.717620 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:49:14.718377 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'debug': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'fail_fast': 'False', 'target_path': 'None', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'log_path': 'logs', 'profiles_dir': '/home/leakono/.dbt', 'use_colors': 'True', 'log_format': 'default', 'quiet': 'False', 'warn_error': 'None', 'introspect': 'True', 'empty': 'None', 'printer_width': '80', 'static_parser': 'True', 'partial_parse': 'True', 'write_json': 'True', 'indirect_selection': 'eager'}
+[0m21:49:14.730813 [info ] [MainThread]: dbt version: 1.11.8
+[0m21:49:14.731352 [info ] [MainThread]: python version: 3.12.3
+[0m21:49:14.731761 [info ] [MainThread]: python path: /home/leakono/Data/practice/dbt/dbt-env/bin/python3
+[0m21:49:14.732145 [info ] [MainThread]: os info: Linux-6.8.0-87-generic-x86_64-with-glibc2.39
+[0m21:49:14.737741 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m21:49:14.853762 [info ] [MainThread]: Using profiles dir at /home/leakono/.dbt
+[0m21:49:14.854576 [info ] [MainThread]: Using profiles.yml file at /home/leakono/.dbt/profiles.yml
+[0m21:49:14.855158 [info ] [MainThread]: Using dbt_project.yml file at /home/leakono/Data/practice/dbt/dbt_project.yml
+[0m21:49:14.855683 [info ] [MainThread]: Configuration:
+[0m21:49:14.856112 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:49:14.856627 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:49:14.857092 [info ] [MainThread]: Required dependencies:
+[0m21:49:14.858165 [debug] [MainThread]: Executing "git --help"
+[0m21:49:14.955879 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:49:14.957047 [debug] [MainThread]: STDERR: "b''"
+[0m21:49:14.957766 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:49:14.958597 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:49:14.959727 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:49:14.961071 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m21:49:14.962219 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/leakono/Data/practice/dbt/dbt_project.yml> not found
+
+[0m21:49:14.964869 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.31681603, "process_in_blocks": "0", "process_kernel_time": 0.123709, "process_mem_max_rss": "135848", "process_out_blocks": "32", "process_user_time": 1.672077}
+[0m21:49:14.966683 [debug] [MainThread]: Command `dbt debug` failed at 21:49:14.966262 after 0.32 seconds
+[0m21:49:14.967954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798697238c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x798696e280e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7986975c1940>]}
+[0m21:49:14.972750 [debug] [MainThread]: Flushing usage events
+[0m21:49:16.188249 [debug] [MainThread]: An error was encountered while trying to flush usage events
