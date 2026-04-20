@@ -1,0 +1,5 @@
+customer_id,first_name,last_name,email,created_at,country
+101,Alice,Mwangi,alice@email.com,2023-09-01,Kenya
+102,Brian,Ouma,brian@email.com,2023-10-15,Kenya
+103,Carol,Njeri,carol@email.com,2023-11-20,Uganda
+104,David,Kimani,david@email.com,2024-01-01,Tanzania
